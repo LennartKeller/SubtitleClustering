@@ -131,4 +131,5 @@ dmypy.json
 
 # our dataset file since its too large for git
 subtitles_dataset_tokenized.csv
-
+# IMDB Dataset is too large for git, too
+crew.tsv
