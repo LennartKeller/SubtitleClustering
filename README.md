@@ -13,3 +13,4 @@ Metadaten: https://www.imdb.com/interfaces/
 
 * Jeder arbeitet an seiner Fragestellung
 * Wenn nötig zusätzliche Metadaten einarbeiten => Metadaten von IMDB anschauen 
+* Artefakte ins Artefakte.txt eintragen
