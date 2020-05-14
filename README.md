@@ -1,10 +1,15 @@
 # SubtitleClustering
 
+Metadaten: https://www.imdb.com/interfaces/
+
 ## Ideen:
 
-1. Nach Genres clustern
-2. Direkte Vergleich: Zeitgenössische Filme über die Vergangenheit vs. Filme aus der Zeit
-3. Hollowood vs. Nicht-Hollywood
-4. Original Filme vs. Audience
-5. (Zeitperioden)
-6. Drehbuchautorenvergleich
+1. Nach Genres clustern (Evelin)
+2. Hollowood vs. Nicht-Hollywood (Diana)
+3. Zeitperioden (Jan) 
+4. Drehbuchautorenvergleich (Lennart)
+
+## Plan fürs nächste Treffen:
+
+* Jeder arbeitet an seiner Fragestellung
+* Wenn nötig zusätzliche Metadaten einarbeiten => Metadaten von IMDB anschauen 
