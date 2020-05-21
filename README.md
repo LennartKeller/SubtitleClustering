@@ -5,7 +5,7 @@ Metadaten: https://www.imdb.com/interfaces/
 # Datasets
 
 Neues komplettes Dataset mit (fast allen IMDB-Metadaten) ```dataset/complete_dataset.csv```
-Am besten alle Daten hier runterladen: https://drive.google.com/file/d/1xykqbrzUNKVBUEHAbuBDSIbhqIbeoHM2/view?usp=sharing und dann in den "datatset"-Ordner entpacken. 
+Am besten alle Daten hier runterladen: https://drive.google.com/file/d/1xykqbrzUNKVBUEHAbuBDSIbhqIbeoHM2/view?usp=sharing und dann in den ```datatset```-Ordner entpacken. 
 
 ### Achtung
 
