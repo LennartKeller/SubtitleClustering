@@ -131,6 +131,13 @@ dmypy.json
 
 # our dataset file since its too large for git
 subtitles_dataset_tokenized.csv
+complete_dataset.csv
 # IMDB Dataset is too large for git, too
 crew.tsv
 persons.tsv
+datasets.zip
+ratings.csv
+titles.csv
+
+# remove chachedir
+chachedir
