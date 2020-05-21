@@ -140,4 +140,4 @@ ratings.csv
 titles.csv
 
 # remove chachedir
-chachedir
+cachedir/
