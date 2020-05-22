@@ -141,3 +141,6 @@ titles.csv
 
 # remove chachedir
 cachedir/
+
+# remove macos stuff
+.DS_Store/
