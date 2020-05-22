@@ -143,4 +143,4 @@ titles.csv
 cachedir/
 
 # remove macos stuff
-.DS_Store/
+.DS_Store
