@@ -62,6 +62,8 @@ if __name__ == '__main__':
     print("Start computing embeddings..")
     embeddings = []
     for index, row in tqdm(df.iterrows()):
+        if row.filename in done_filenames:
+            continue
         if not row.text:
             continue
         doc = Sentence(row.text)
