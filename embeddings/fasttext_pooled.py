@@ -10,7 +10,7 @@ if __name__ == '__main__':
     print("Checking if CUDA is available...")
     print("CUDA is enabled" if is_available() else "CUDA is not enabled")
     print("Reading dataset...")
-    df = pd.read_csv('complete_dataset.csv')
+    df = pd.read_csv('../dataset/complete_dataset.csv')
     df.drop_duplicates(subset=['IMDB_ID'], inplace=True)
     df.dropna(subset=['filename'], inplace=True)
     df.dropna(subset=['text'], inplace=True)
