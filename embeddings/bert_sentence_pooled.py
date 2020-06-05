@@ -78,14 +78,16 @@ if __name__ == '__main__':
             sent_embedding = doc.embedding.cpu().detach().numpy()
             sent_embeddings.append(sent_embedding)
 
-        mean_embedding = np.asarray(sent_embeddings).mean(axis=0)
+        sent_embeddings = np.asarray(sent_embeddings)
+
+        mean_embedding = sent_embeddings.mean(axis=0)
         with open('embeddings_bert_mean.txt', 'a') as f:
             f.write(f"{row.filename} {' '.join(map(str, mean_embedding))}\n")
 
-        max_embedding = np.asarray(sent_embeddings).min(axis=0)
+        max_embedding = sent_embeddings.min(axis=0)
         with open('embeddings_bert_max.txt', 'a') as f:
             f.write(f"{row.filename} {' '.join(map(str, max_embedding))}\n")
 
-        min_embedding = np.asarray(sent_embeddings).min(axis=0)
+        min_embedding = sent_embeddings.min(axis=0)
         with open('embeddings_bert_min.txt', 'a') as f:
             f.write(f"{row.filename} {' '.join(map(str, min_embedding))}\n")
