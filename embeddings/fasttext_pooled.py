@@ -3,10 +3,12 @@ import re
 import pandas as pd
 from flair.data import Sentence
 from flair.embeddings import WordEmbeddings, DocumentPoolEmbeddings
+from torch.cuda import is_available
 from tqdm import tqdm
 
 if __name__ == '__main__':
-
+    print("Checking if CUDA is available...")
+    print("CUDA is enabled" if is_available() else "CUDA is not enabled")
     print("Reading dataset...")
     df = pd.read_csv('complete_dataset.csv')
     df.drop_duplicates(subset=['IMDB_ID'], inplace=True)
