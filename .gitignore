@@ -138,6 +138,10 @@ persons.tsv
 datasets.zip
 ratings.csv
 titles.csv
+#Embeddings:
+embeddings_max.txt
+embeddings_mean.txt
+embeddings_min.txt
 
 # remove chachedir
 cachedir/
