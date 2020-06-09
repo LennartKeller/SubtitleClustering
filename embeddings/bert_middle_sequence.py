@@ -69,7 +69,7 @@ if __name__ == '__main__':
 
         doc = Sentence(text)
 
-        doc_embeddings.embedd(doc)
+        doc_embeddings.embed(doc)
         sequence_embedding = doc.embedding.cpu().detach().numpy()
 
         with open('embeddings_bert_headtail.txt', 'a') as f:
