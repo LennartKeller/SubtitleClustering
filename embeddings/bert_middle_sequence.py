@@ -73,5 +73,5 @@ if __name__ == '__main__':
         sequence_embedding = doc.embedding.cpu().detach().numpy()
 
         with open('embeddings_bert_headtail.txt', 'a') as f:
-            f.write(f"{row.filename} {' '.join(map(str, mean_embedding))}\n")
+            f.write(f"{row.filename} {' '.join(map(str, sequence_embedding))}\n")
 
