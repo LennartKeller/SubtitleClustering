@@ -21,6 +21,4 @@ Also lieber mit ```df.dropa(subset=['spalte_zum_filtern'])``` spezifische Spalte
 
 ## Plan fürs nächste Treffen:
 
-* Jeder arbeitet an seiner Fragestellung
-* Wenn nötig zusätzliche Metadaten einarbeiten => Metadaten von IMDB anschauen 
-* Artefakte ins Artefakte.txt eintragen
+* Repräsentativen Sampledatensatz
