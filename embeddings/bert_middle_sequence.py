@@ -60,9 +60,9 @@ if __name__ == '__main__':
 
         # heat and tail method (https://arxiv.org/pdf/1905.05583.pdf)
         token = re.findall(r'\w+', row.text)
-        if len(token) < 512:
-            head = token[:128]
-            tail = token[382:]
+        if len(token) < 382:
+            head = token[:96]
+            tail = token[286:]
             text = " ".join(head + tail)
         else:
             text = " ".join(token)
