@@ -16,11 +16,11 @@ for text in tqdm(df.text):
     lemma, pos, tag, dep, shape, ent_text, ent_label = [], [], [], [], [], [], []
 
     for token in doc:
-        lemma.append(doc.lemma_)
-        pos.append(doc.pos_)
-        tag.append(doc.token.pos_)
-        dep.append(doc.dep_)
-        shape.append(doc.shape_)
+        lemma.append(token.lemma_)
+        pos.append(token.pos_)
+        tag.append(token.token.pos_)
+        dep.append(token.dep_)
+        shape.append(token.shape_)
 
     for ent in doc.ents:
         ent_text.append(ent.text)
