@@ -39,7 +39,7 @@ df['lemma'] = lemma_result
 df['pos'] = pos_result
 df['tag'] = tag_result
 df['dep'] = dep_result
-df['shape'] = shape_result
+df['token_shape'] = shape_result
 df['ent_text'] = ent_text_result
 df['ent_label'] = ent_label_result
 
