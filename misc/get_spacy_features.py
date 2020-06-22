@@ -18,7 +18,7 @@ for text in tqdm(df.text):
     for token in doc:
         lemma.append(token.lemma_)
         pos.append(token.pos_)
-        tag.append(token.token.pos_)
+        tag.append(token.pos_)
         dep.append(token.dep_)
         shape.append(token.shape_)
 
