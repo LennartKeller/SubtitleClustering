@@ -5,7 +5,7 @@ from tqdm import tqdm
 df = pd.read_csv('../dataset/movies.csv')
 
 spacy.prefer_gpu()
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("de_core_news_sm")
 
 lemma_result, pos_result, tag_result, dep_result, shape_result, ent_text_result, ent_label_result = [], [], [], [], [], [], []
 
