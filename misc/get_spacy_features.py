@@ -18,7 +18,7 @@ for text in tqdm(df.text):
     for token in doc:
         lemma.append(token.lemma_)
         pos.append(token.pos_)
-        tag.append(token.pos_)
+        tag.append(token.tag_)
         dep.append(token.dep_)
         shape.append(token.shape_)
 
@@ -31,8 +31,8 @@ for text in tqdm(df.text):
     tag_result.append(" ".join(tag))
     dep_result.append(" ".join(dep))
     shape_result.append(" ".join(shape))
-    ent_text_result.append(" ".join(ent_text))
-    ent_label_result.append(" ".join(ent_label))
+    ent_text_result.append("|".join(ent_text))
+    ent_label_result.append("|".join(ent_label))
 
 
 df['lemma'] = lemma_result
