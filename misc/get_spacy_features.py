@@ -44,6 +44,6 @@ df['ent_text'] = ent_text_result
 df['ent_label'] = ent_label_result
 
 
-df.to_csv('../dataset/movies.csv')∆
+df.to_csv('../dataset/movies.csv')
 
 
