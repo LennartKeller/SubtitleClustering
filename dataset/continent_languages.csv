@@ -1,42 +1,56 @@
 ﻿north_america,south_america,europe,africa,asia,australia,antartica,uncategorised
-English,nahuatl,bulgaria,Swahli,russian,Aboriginal,,esperanto
-Athapascan,Brazilian,croatian,Zulu,arabic,,,latin
-Sioux,Guarani,czech,Bambara,cantonese,,,Creoles and pidgins
-Apache,Aymara,danish,Fulah,polynesian,,, Ancient (to 1453)
-Pawnee,Quechua,dutch,Afrikaans,mandarin,,,Klingon
-Mohawk,,english,Xhosa,hebrew,,,Ungwatsi
-Inuktitut,,estonian,Mende,indonesian,,,
-Cree,,finnish,,japanese,,,
-Algonquin,,French,,hindi,,,
-Arapaho,,german,,thai,,,
-Tatar,,greek,,chinese,,,
-,,hungarian,,turkish,,,
-,,irish,,malay,,,
-,,italian,,urdu,,,
-,,latvian,,mongolian,,,
-,,lithuanian,,vietnamese,,,
-,,maltese,,korean,,,
-,,polish,,burmese,,,
-,,portuguese,,Armenian,,,
-,,romanian,,Khmer,,,
-,,slovak,,Nepali,,,
-,,slovene,,Filipino,,,
-,,spanish,,Kurdish,,,
-,,swedish,,Sinhalese,,,
-,,swiss german,,Persian,,,
-,,ukranian,,Dari,,,
-,,norwegian,,Azerbaijani,,,
-,,neapolitan,,Hakka,,,
-,,yiddsh,,Shanghainese,,,
-,,serbo-croatian,,Lao,,,
-,,Sicilian,,Hokkien,,,
-,,Icelandic,,Tibetan,,,
-,,Maltese,,Min Nan,,,
-,,Belarusian,,Syriac,,,
-,,Saami,,Assyrian Neo-Aramaic,,,
-,,Scanian,,,,,
-,,Faroese,,,,,
-,,Occitan,,,,,
-,,British,,,,,
-,,Scottish Gaelic,,,,,
-,,Chechen,,,,,
+English,Nahuatl,French,Swahili,Russian,Aboriginal,,Latin
+Athapascan,Brazilian,Swedish,Zulu,Arabic,Maori,,Portuguese
+American,Guarani,German,Bambara,Cantonese,,,Esperanto
+Sioux,Aymara,Slovak,Fulah,Polynesian,,,Georgian
+Apache,Quechua,Danish,Afrikaans,Mandarin,,,Navajo
+Pawnee,Papiamento,Polish,Xhosa,Hebrew,,,Arapaho
+Mohawk,Mapudungun,Spanish,Mende,Indonesian,,,Romany
+Inuktitut,Maya,Italian,Somali,Japanese,,,Tatar
+Cree,,Hungarian,Wolof,Hindi,,,Creoles and pidgins
+Algonquin,,Czech,Amharic,Thai,,, Ancient (to 1453)
+Hawaiian,,Welsh,Lingala,Chinese,,,Klingon
+Berber,,Serbian,Nyanja,Turkish,,,Pushto
+Crow,,Greek,Southern Sotho,Malay,,,Ungwatsi
+Inupiaq,,Croatian,Acholi,Urdu,,,More
+North American Indian,,Swiss German,Masai,Mongolian,,,Tok Pisin
+,,Romanian,,Vietnamese,,,Sindarin
+,,Dutch,,Korean,,,Gallegan
+,,Bulgarian,,Burmese,,,Quenya
+,,Ukrainian,,Armenian,,, Old
+,,Norwegian,,Khmer,,,Creole
+,,Estonian,,Nepali,,,Sign Languages
+,,Neapolitan,,Filipino,,,
+,,Yiddish,,Kurdish,,,
+,,Serbo-Croatian,,Sinhalese,,,
+,,Irish,,Persian,,,
+,,Sicilian,,Azerbaijani,,,
+,,Icelandic,,Hakka,,,
+,,Lithuanian,,Shanghainese,,,
+,,Maltese,,Tagalog,,,
+,,Finnish,,Lao,,,
+,,Belarusian,,Hokkien,,,
+,,Dari,,Tibetan,,,
+,,Saami,,Min Nan,,,
+,,Scanian,,Syriac,,,
+,,Faroese,,Assyrian Neo-Aramaic,,,
+,,Occitan,,Tamil,,,
+,,British,,Egyptian (Ancient),,,
+,,Scottish Gaelic,,Aramaic,,,
+,,Chechen,,Ladakhi,,,
+,,Bosnian,,Bengali,,,
+,,Albanian,,Panjabi,,,
+,,Catalan,,Kazakh,,,
+,,Luxembourgish,,Marathi,,,
+,,Old English,,Kirghiz,,,
+,,Slovenian,,Sanskrit,,,
+,,Corsican,,Bhojpuri,,,
+,,Flemish,,Hmong,,,
+,,Raeto-Romance,,Gujarati,,,
+,,Bable,,Malayalam,,,
+,,Basque,,Balinese,,,
+,,Scots,,Telugu,,,
+,,Greenlandic,,,,,
+,,Latvian,,,,,
+,,Breton,,,,,
+,,Norse,,,,,
