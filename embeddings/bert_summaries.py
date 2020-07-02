@@ -19,7 +19,7 @@ if __name__ == '__main__':
     df.dropna(subset=['filename'], inplace=True)
     df.dropna(subset=['Plot'], inplace=True)
 
-    doc_embeddings = TransformerDocumentEmbeddings('bert-base-german-cased')
+    doc_embeddings = TransformerDocumentEmbeddings('distilbert-base-german-cased')
 
     embeddings = []
 
@@ -30,8 +30,8 @@ if __name__ == '__main__':
 
         # heat and tail method (https://arxiv.org/pdf/1905.05583.pdf)
         token = row.Plot.split()
-        if len(token) > 256:
-            text = " ".join(token[:256])
+        if len(token) > 512:
+            text = " ".join(token[:512])
         else:
             text = " ".join(token)
 
