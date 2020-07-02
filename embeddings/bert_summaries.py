@@ -29,9 +29,9 @@ if __name__ == '__main__':
             continue
 
         # heat and tail method (https://arxiv.org/pdf/1905.05583.pdf)
-        token = re.findall(r'\w+', row.Plot)
-        if len(token) > 512:
-            text = " ".join(token[:512])
+        token = row.Plot.split()
+        if len(token) > 384:
+            text = " ".join(token[:384])
         else:
             text = " ".join(token)
 
