@@ -30,8 +30,8 @@ if __name__ == '__main__':
 
         # heat and tail method (https://arxiv.org/pdf/1905.05583.pdf)
         token = row.Plot.split()
-        if len(token) > 256:
-            text = " ".join(token[:256])
+        if len(token) > 128:
+            text = " ".join(token[:128])
         else:
             text = " ".join(token)
 
