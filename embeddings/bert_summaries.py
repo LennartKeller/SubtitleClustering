@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
         doc_embeddings.embed(doc)
         sequence_embedding = doc.embedding.cpu().detach().numpy()
-        time.sleep(0.1)
+        #time.sleep(0.1)
 
         with open('embeddings_bert_summaries.txt', 'a') as f:
             f.write(f"{row.filename} {' '.join(map(str, sequence_embedding))}\n")
