@@ -1,13 +1,10 @@
-import re
+import time
 
-import nltk
-import numpy as np
 import pandas as pd
 from flair.data import Sentence
 from flair.embeddings import TransformerDocumentEmbeddings
 from torch.cuda import is_available
 from tqdm import tqdm
-import re
 
 if __name__ == '__main__':
 
@@ -19,7 +16,7 @@ if __name__ == '__main__':
     df.dropna(subset=['filename'], inplace=True)
     df.dropna(subset=['Plot'], inplace=True)
 
-    doc_embeddings = TransformerDocumentEmbeddings('distilbert-base-german-cased')
+    doc_embeddings = TransformerDocumentEmbeddings('bert-base-german-cased')
 
     embeddings = []
 
@@ -30,8 +27,8 @@ if __name__ == '__main__':
 
         # heat and tail method (https://arxiv.org/pdf/1905.05583.pdf)
         token = row.Plot.split()
-        if len(token) > 128:
-            text = " ".join(token[:128])
+        if len(token) > 512:
+            text = " ".join(token[:512])
         else:
             text = " ".join(token)
 
@@ -39,6 +36,7 @@ if __name__ == '__main__':
 
         doc_embeddings.embed(doc)
         sequence_embedding = doc.embedding.cpu().detach().numpy()
+        time.sleep(0.1)
 
         with open('embeddings_bert_summaries.txt', 'a') as f:
             f.write(f"{row.filename} {' '.join(map(str, sequence_embedding))}\n")
