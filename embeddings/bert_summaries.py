@@ -31,8 +31,6 @@ if __name__ == '__main__':
         # heat and tail method (https://arxiv.org/pdf/1905.05583.pdf)
         token = re.findall(r'\w+', row.Plot)
         if len(token) > 512:
-            head = token[:128]
-            tail = token[382:]
             text = " ".join(token[:512])
         else:
             text = " ".join(token)
