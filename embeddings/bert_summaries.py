@@ -19,36 +19,6 @@ if __name__ == '__main__':
     df.dropna(subset=['filename'], inplace=True)
     df.dropna(subset=['Plot'], inplace=True)
 
-    print("Filtering noise from text data...")
-    remove_subcentral_annotation = re.compile(r'übersetzt von.+$', flags=re.I)
-    remove_season_episode_annotation = re.compile(r's\d+?e\d+?', flags=re.I)
-    remove_remove_season_episode_annotation_german = re.compile(r'staffel.+?episode', flags=re.I)
-    remove_remove_season_episode_annotation_german_2 = re.compile(r'staffel.+?folge', flags=re.I)
-    remove_subcentral_note = re.compile(r'subcentral.+ präsentiert', flags=re.I)
-    remove_subtitle_statement = re.compile(r'Untertitel von.+$', flags=re.I)
-    remove_netflix_original_statement = re.compile(r'EINE NETFLIX ORIGINAL SERIE', flags=re.I)
-    remove_tvuser = re.compile(r'tv4user.+?präsentiert', flags=re.I)
-    remove_tvuser_subcentral = re.compile(r'subcentral.+?tv4user', flags=re.I)
-    remove_subcentral_url = re.compile(r'subcentral\.de', flags=re.I)
-    remove_tv4user_url = re.compile(r'tv4user\.de', flags=re.I)
-    remove_sub_statement = re.compile(r'subbed\w+?by', flags=re.I)
-    remove_tiger_statement = re.compile(r'übersetzung filmtiger', flags=re.I)
-
-    for regex in (remove_subcentral_annotation,
-                  remove_season_episode_annotation,
-                  remove_remove_season_episode_annotation_german,
-                  remove_remove_season_episode_annotation_german_2,
-                  remove_subcentral_note,
-                  remove_subtitle_statement,
-                  remove_netflix_original_statement,
-                  remove_tvuser,
-                  remove_tvuser_subcentral,
-                  remove_subcentral_url,
-                  remove_tv4user_url,
-                  remove_sub_statement,
-                  remove_tiger_statement):
-        df.text = df.text.str.replace(regex, '')
-
     doc_embeddings = TransformerDocumentEmbeddings('bert-base-german-cased')
 
     embeddings = []
