@@ -149,3 +149,7 @@ cachedir/
 
 # remove macos stuff
 .DS_Store
+dataset/embeddings_bert_headtail.txt
+dataset/embeddings_bert_min.txt
+dataset/movies_spacy.csv
+dataset/embeddings_bert_mean.txt
