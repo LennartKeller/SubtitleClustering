@@ -133,6 +133,7 @@ dmypy.json
 subtitles_dataset_tokenized.csv
 complete_dataset.csv
 movies.csv
+movies_complete.csv
 # IMDB Dataset is too large for git, too
 crew.tsv
 persons.tsv
@@ -149,3 +150,8 @@ cachedir/
 
 # remove macos stuff
 .DS_Store
+dataset/embeddings_bert_headtail.txt
+dataset/embeddings_bert_min.txt
+dataset/movies_spacy.csv
+dataset/embeddings_bert_mean.txt
+dataset/embeddings_bert_max.txt
