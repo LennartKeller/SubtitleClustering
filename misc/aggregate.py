@@ -15,7 +15,7 @@ def aggregate_by_label(df: pd.DataFrame, label: str, min_threshold: int = 0):
         entry['text'] = conctanated_text
         entry['n_texts'] = len(all_texts)
         entry['n_tokens'] = len(conctanated_text.split())
-        entry['instances'] = label_df.filename.to_list()
+        entry['instances'] = ", ".join(label_df.filename.to_list())
         
         entries.append(entry)
     return pd.DataFrame.from_records(entries)
