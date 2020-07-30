@@ -16,7 +16,7 @@ if __name__ == '__main__':
     df.dropna(subset=['filename'], inplace=True)
     df.dropna(subset=['Plot'], inplace=True)
 
-    doc_embeddings = TransformerDocumentEmbeddings('distilbert-base-german-cased')
+    doc_embeddings = TransformerDocumentEmbeddings('bert-base-nli-stsb-mean-tokens')
 
     embeddings = []
 
