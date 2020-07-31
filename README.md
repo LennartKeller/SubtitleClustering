@@ -1,24 +1,29 @@
 # SubtitleClustering
 
-Metadaten: https://www.imdb.com/interfaces/
+Link zum Github-Repository unseres Projekts:
+https://github.com/LennartKeller/SubtitleClustering/
 
-# Datasets
+Downloadlink movies_complete.csv, endgültiger, bereinigter Datensatz erweitert mit IMDB Metadaten:
+https://drive.google.com/file/d/1Lzs40ugz4mwCWyxhU5JRdJYJX4m-xYhi/view
 
-Neues komplettes Dataset mit (fast allen IMDB-Metadaten) ```dataset/complete_dataset.csv```
-Am besten alle Daten hier runterladen: https://drive.google.com/file/d/1xykqbrzUNKVBUEHAbuBDSIbhqIbeoHM2/view?usp=sharing und dann in den ```datatset```-Ordner entpacken. 
 
-### Achtung
+(Downloadlink Ursprünglicher Datensatz aus den reinen Daten des Opensubtitles.org Datensatz:
+https://drive.google.com/file/d/1icM6DojsKWTfL1-nthTMEvEezvLtepo1/view?usp=sharing)
 
-Nur bei 92 Enträgen sind alle Metadaten vorhanden, d.h. ```df.dropna()``` führt dazu, dass fast alle Daten verworfen werden.
-Also lieber mit ```df.dropa(subset=['spalte_zum_filtern'])``` spezifische Spalten filtern.
 
-## Ideen:
+Die Finalen Notebooks, deren Inhalte in der Präsentation zusammengefasst wurden befinden sich im Ordner:
+/notebooks/final
 
-1. Nach Genres clustern (Evelin)
-2. Hollowood vs. Nicht-Hollywood (Diana)
-3. Zeitperioden (Jan) 
-4. Drehbuchautorenvergleich (Lennart)
+Die Präsentation befindet sich im Ordner:
+/presentation
+Die Ergebnisse unseres Topic Modellings befinden sich in /notebooks/final/TopicModelling.ipynb (Diese konnten aufgrund der Interaktivität nicht sinnvoll in die Präsentation integriert werden)
 
-## Plan fürs nächste Treffen:
+Alle weiteren Notebooks befinden sich im Ordner:
+/notebooks
+Diese Notebooks enthalten sämtliche Clusterings und Versuche, die über das Semester durchgeführt wurden.
 
-* Repräsentativen Sampledatensatz
+Die Datensätze sowohl, die von uns bearbeiteten, als auch die Rohdaten von IMBD befinden sich im Ordner:
+/datasets
+Die Datensätze sind teilweise zu groß für GIT, weshalb diese über die oben bereitgestellen Links runtergeladen werden müssen.
+Die Datensätze wurden im .gitignore vermerkt.
+Des weiteren enthält der Ordner das Python-Skript (dataset_create_tokenized.py), mit dem die ursprünglichen XML Daten in eine für Pandas einlesbare .csv gespeichert wurden
