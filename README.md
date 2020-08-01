@@ -2,18 +2,14 @@
 
 ### Daten
 
-Link zum Github-Repository unseres Projekts:
-https://github.com/LennartKeller/SubtitleClustering/
+* Link zum Github-Repository unseres Projekts: https://github.com/LennartKeller/SubtitleClustering/
 
-Downloadlink movies_complete.csv, endgültiger, bereinigter Datensatz erweitert mit IMDB Metadaten:
-https://drive.google.com/file/d/1Lzs40ugz4mwCWyxhU5JRdJYJX4m-xYhi/view
+* Downloadlink movies_complete.csv, endgültiger, bereinigter Datensatz erweitert mit IMDB Metadaten: https://drive.google.com/file/d/1Lzs40ugz4mwCWyxhU5JRdJYJX4m-xYhi/view
 
 
-(Downloadlink Ursprünglicher Datensatz aus den reinen Daten des Opensubtitles.org Datensatz:
-https://drive.google.com/file/d/1icM6DojsKWTfL1-nthTMEvEezvLtepo1/view?usp=sharing)
+* (Downloadlink Ursprünglicher Datensatz aus den reinen Daten des Opensubtitles.org Datensatz: https://drive.google.com/file/d/1icM6DojsKWTfL1-nthTMEvEezvLtepo1/view?usp=sharing)
 
-Außerdem haben wir im Laufe des Projekts mit einer ganzen Reihe von zu Document-Embeddings experimentiert.
-Diese sind unter https://drive.google.com/file/d/11LUdfpFhzLgZ9jQI4QgnD6eZauaBBCED/view?usp=sharing aufrufbar.
+*A*ußerdem haben wir im Laufe des Projekts mit einer ganzen Reihe von zu Document-Embeddings experimentiert. Diese sind unter https://drive.google.com/file/d/11LUdfpFhzLgZ9jQI4QgnD6eZauaBBCED/view?usp=sharing abrufbar.
 
 ### Struktur des Repositorys
 
