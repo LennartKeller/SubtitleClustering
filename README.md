@@ -13,7 +13,7 @@
 
 ### Struktur des Repositorys
 
-* Die Finalen Notebooks, deren Inhalte in der Präsentation zusammengefasst wurden befinden sich im Ordner: ```notebooks/final```
+* Die finalen Notebooks, deren Inhalte in der Präsentation zusammengefasst wurden befinden sich im Ordner: ```notebooks/final```
 
 * Die Präsentation befindet sich im Ordner: ```presentation```
   * Die Ergebnisse unseres Topic Modellings befinden sich in ```notebooks/final/TopicModelling.ipynb``` (Diese konnten aufgrund der Interaktivität nicht sinnvoll in die Präsentation integriert werden)
@@ -24,4 +24,4 @@
 * Die Datensätze sowohl, die von uns bearbeiteten, als auch die Rohdaten von IMBD befinden sich im Ordner: ```datasets```
 Die Datensätze sind teilweise zu groß für GIT, weshalb diese über die oben bereitgestellen Links runtergeladen werden müssen.
 
-* Des weiteren enthält der Ordner das Python-Skript (dataset_create_tokenized.py), mit dem die ursprünglichen XML Daten in eine für Pandas einlesbare .csv gespeichert wurden
+* Des Weiteren enthält der Ordner das Python-Skript (dataset_create_tokenized.py), mit dem die ursprünglichen XML Daten in eine für Pandas einlesbare .csv gespeichert wurden
